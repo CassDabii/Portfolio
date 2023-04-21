@@ -19,7 +19,7 @@ NAME = "Maxwell Ogunsanya"
 DESCRIPTION = """
 Computer Science Graduate, creating custom software solutions.
 """
-EMAIL = "maxwellogunsanya@email.com"
+EMAIL = "maxwellogunsanya@gmail.com"
 SOCIAL_MEDIA = {
     "LinkedIn": "https://www.linkedin.com/in/maxwellogunsanya/",
     "GitHub": "https://github.com/CassDabii",
