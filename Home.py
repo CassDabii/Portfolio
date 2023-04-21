@@ -5,9 +5,9 @@ import streamlit.components.v1 as components
 
 # Path settings
 curr_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
-css_file = curr_dir / 'styles' / 'styles\main.css'
-resume_file = curr_dir / 'assets' / 'assets\Maxwell Ogunsanya - CV.pdf'
-avi = curr_dir / 'images' / 'Images\pfp.png'
+css_file = curr_dir / 'styles' / 'main.css'
+resume_file = curr_dir / 'assets' / 'Maxwell Ogunsanya - CV.pdf'
+avi = curr_dir / 'Images' / 'pfp.png'
 
 
 # --- GENERAL SETTINGS ---
