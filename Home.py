@@ -8,6 +8,8 @@ curr_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = curr_dir / 'styles' / 'main.css'
 resume_file = curr_dir / 'assets' / 'Maxwell Ogunsanya - CV.pdf'
 avi = curr_dir / 'Images' / 'pfp.png'
+contact_css = curr_dir / 'styles' / 'contactme.css'
+
 
 
 # --- GENERAL SETTINGS ---
