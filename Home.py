@@ -25,7 +25,7 @@ SOCIAL_MEDIA = {
     "GitHub": "https://github.com/CassDabii",
 }
 PROJECTS = {
-    "✔️ Design Document Maker - Makes use of NLP to aid in the generation of design documnets:": "https://cassadoc.streamlit.app/",
+    "✔️ CassaLog - Makes use of NLP to aid in the generation of design documnets:": "https://cassadoc.streamlit.app/",
     "⌛ CassaLog - A trading journal that will use ML to give detailed insights into trading habits":"",
     "⌛ CassaBot - An alternate UI for the Open assistant AI":"",
 }
