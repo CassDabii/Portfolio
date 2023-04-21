@@ -69,10 +69,10 @@ st.write('\n')
 st.subheader("Hard Skills")
 st.write(
     """
-- 👩‍💻 Programming: Python (Scikit-learn, Pandas), SQL, VBA
+- 👩‍💻 Programming: Python, SQL, Java
 - 📊 Data Visulization: PowerBi, MS Excel, Plotly
 - 📚 Modeling: Logistic regression, linear regression, decition trees
-- 🗄️ Databases: Postgres, MongoDB, MySQL
+- 🗄️ Databases: Postgres, MongoDB, MySQL, NoSQL
 """
 )
 
@@ -155,4 +155,4 @@ def local_css(file_name):
             st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 
-local_css("styles/contactme.css")
+local_css("styles\contactme.css")
