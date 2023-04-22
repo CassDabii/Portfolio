@@ -25,7 +25,7 @@ SOCIAL_MEDIA = {
     "GitHub": "https://github.com/CassDabii",
 }
 PROJECTS = {
-    "✔️ CassaLog - Makes use of NLP to aid in the generation of design documnets:": "https://cassadoc.streamlit.app/",
+    "✔️ CassaDoc - Makes use of NLP to aid in the generation of design documnets:": "https://cassadoc.streamlit.app/",
     "⌛ CassaLog - A trading journal that will use ML to give detailed insights into trading habits":"",
     "⌛ CassaBot - An alternate UI for the Open assistant AI":"",
 }
@@ -129,7 +129,7 @@ positive feedback from supervisors.
 
 # --- Projects ---
 st.write('\n')
-st.subheader("Projects on the way")
+st.subheader("CassaCorp Catalogue")
 st.write("---")
 for project, link in PROJECTS.items():
     st.write(f"[{project}]({link})")
