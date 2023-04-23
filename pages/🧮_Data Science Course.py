@@ -17,8 +17,8 @@ with tab1:
   - The third is that I am unemployed what else am I supposed to do? It's either this or playing League of Legends and I am on a losing streak right now soooo….
    
    """)
-   url = 'https://github.com/CassDabii/Portfolio/blob/5ee2801f19e2f5e87068cf07ef124a6e7f906680/Images/Screenshot%202023-04-23%20122146.png'
-   image = Image.open(url)
+   
+   image = Image.open('Images\Screenshot 2023-04-23 122146.png')
    col1, col2, col3 = st.columns(3)
 
    with col1:
@@ -35,15 +35,15 @@ with tab1:
 
    st.subheader("You haven't answered how this is gonna work?")
    st.write("""
-   😐 Okay, I will try to explain core concepts of data science and machine learning alike. There will be many chunks of code which I will explain in-depth and elaborate on why it is done in that way.
+   😐 Okay, I will try to explain core concepts of data science and machine learning. There will be many chunks of code which I will explain in-depth and elaborate on why it is done in that way.
    Also at the end of each section, I will give questions that when answered will encompass all we have learnt these questions can be used in an active recall and spaced repition method to make sure it stays in the noggin.
    """)
 
    st.divider() 
 
    st.subheader("What is the active recall active recall and spaced repition method?")
-   st.write("""This is when you actively try and retrive information from memory. How it will integrate into this course is the questions that are given a the end of a lesson will promote active recall
-               .The quesions will not be full blown exam questions, rather questions you would ask yourself when trying to answer the whole questions. Take this for example:
+   st.write("""This is when you actively try and retrive information from memory. How it will integrate into this course when answering the end questions for each lesson in regular intervals of a week or some other period
+               it will reinforce your understanding of the material and allow for the information to be actively reaclled. The quesions will not be full blown exam questions, rather questions you would ask yourself when trying to answer the whole question. Take this for example:
             """)
    st.code("""
         
@@ -58,7 +58,7 @@ with tab1:
    """)
    st.divider()
 
-   st.subheader("Are you going to be rambling during the course?")
+   st.subheader("Are you going to do semi-comedic yet holisticly cringe cutaways during the course?")
    def rambling():
       st.balloons()
       
