@@ -21,8 +21,8 @@ with tab1:
   - The third is that I am unemployed what else am I supposed to do? It's either this or playing League of Legends and I am on a losing streak right now soooo….
    
    """)
-   
-   image = Image.open(lol_loss)
+   url = 'https://github.com/CassDabii/Portfolio/blob/700b8b53e2afa8b334317dcab574cdf2cf3b5939/Images/lolloss.png'
+   image = Image.open(url)
    col1, col2, col3 = st.columns(3)
 
    with col1:
