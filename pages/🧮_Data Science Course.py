@@ -7,7 +7,7 @@ st.set_page_config(layout="wide")
 st.title('Data Science Course (In Quotation Marks)')
 curr_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 
-lol_loss = curr_dir / 'Images' / 'lolloss.png'
+lol_loss = curr_dir / 'Portfolio/Images' / 'lolloss.png'
 
 
 tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(["How this is gonna work!","Some Prior Knowledge", "The Fabled Data", "Not The Maths", "The Science?", "Even Deeper Science?"])
