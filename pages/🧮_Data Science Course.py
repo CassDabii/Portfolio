@@ -17,8 +17,8 @@ with tab1:
   - The third is that I am unemployed what else am I supposed to do? It's either this or playing League of Legends and I am on a losing streak right now soooo….
    
    """)
-   
-   image = Image.open('Images\Screenshot 2023-04-23 122146.png')
+   url = 'https://github.com/CassDabii/Portfolio/blob/5ee2801f19e2f5e87068cf07ef124a6e7f906680/Images/Screenshot%202023-04-23%20122146.png'
+   image = Image.open(url)
    col1, col2, col3 = st.columns(3)
 
    with col1:
