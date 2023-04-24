@@ -25,7 +25,7 @@ with tab1:
     st.write(' ')
 
    with col2:
-    st.image("pages\page_images\lolloss.png", caption='Melancholy',width=450)
+    st.image("https://github.com/CassDabii/Portfolio/blob/ebe03742e1e91ad031519067ed9c504547a7454d/pages/page_images/lolloss.png", caption='Melancholy',width=450)
 
    with col3:
     st.write(' ')
