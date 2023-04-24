@@ -4,10 +4,10 @@ from pathlib import Path
 
 st.set_page_config(layout="wide")
 
-st.title('Data Science Course (In Quotation Marks)')
+st.title('Machine Learning Course (In Quotation Marks)')
 
 
-tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(["How this is gonna work!","Some Prior Knowledge", "The Fabled Data", "Not The Maths", "The Science?", "Even Deeper Science?"])
+tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8= st.tabs(["How this is gonna work!","Some Prior Knowledge", "The Fabled Data", "Supervision", "Off The Rails", "Good Boy","We Go Deeper?","What is all this for?"])
 
 with tab1:
    st.subheader("What are we even doing right now?")
@@ -70,10 +70,16 @@ with tab3:
    st.header("The Fabled Data")
 
 with tab4:
-   st.header("Not The Maths")
+   st.header("Supervision")
 
 with tab5:
-   st.header("The Science?")
+   st.header("Off The Rails")
 
 with tab6:
-   st.header("Even Deeper Science?")
+   st.header("Good Boy")
+
+with tab7:
+   st.header("We Go Deeper?")
+
+with tab8:
+   st.header("What is all this for?")
